@@ -1,0 +1,66 @@
+body {
+    font-family: 'Comic Sans MS', 'Segoe UI', cursive, sans-serif;
+    background-color: #ffeefc;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+  
+  h1 {
+    color: #ff80ab;
+    margin-bottom: 20px;
+    font-size: 2.5rem;
+    text-shadow: 1px 1px #fff0f5;
+  }
+  
+  .board {
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    gap: 8px;
+    background-color: #ffd9ec;
+    padding: 10px;
+    border-radius: 20px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+  }
+  
+  .cell {
+    width: 100px;
+    height: 100px;
+    background-color: #fff0f5;
+    border: 2px solid #ffb6c1;
+    border-radius: 15px;
+    font-size: 2.5rem;
+    color: #ff69b4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: background-color 0.2s, transform 0.1s;
+  }
+  
+  .cell:hover {
+    background-color: #ffe4ec;
+    transform: scale(1.05);
+  }
+  
+  button {
+    padding: 12px 24px;
+    font-size: 1rem;
+    cursor: pointer;
+    border: none;
+    border-radius: 12px;
+    background-color: #ffb6c1;
+    color: white;
+    box-shadow: 0 5px 15px rgba(255, 182, 193, 0.3);
+    transition: background-color 0.2s, transform 0.1s;
+  }
+  
+  button:hover {
+    background-color: #ff8fab;
+    transform: scale(1.05);
+  }
+ 
